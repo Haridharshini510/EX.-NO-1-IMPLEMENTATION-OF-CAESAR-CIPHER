@@ -12,6 +12,7 @@ with each character in the plain text.
 STEP-4: Else subtract the key from the plain text.
 STEP-5: Display the cipher text obtained above.
 ## PROGRAM:
+```
 #include <stdio.h>
 #include <ctype.h>
 #include <string.h>
@@ -47,6 +48,7 @@ int main() {
  printf("Decoded message: %s\n", decoded);
  return 0;
 }
+```
 ## OUTPUT:
 <img width="601" height="222" alt="image" src="https://github.com/user-attachments/assets/ca1f5ca0-fb55-4862-9483-0fb8d4544229" />
 
